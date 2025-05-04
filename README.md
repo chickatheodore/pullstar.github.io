@@ -1,13 +1,8 @@
-# online-demo
+# Pullstar Retail Documentation
 
-[Fork on StackBlitz ⚡️](https://stackblitz.com/fork/vuepress-theme-hope)
+[Retail System Website](https://retail.pullstar.site/admin/dashboard)
 
-## Docs Demo
-
-- Preview: `pnpm run docs:dev`
-- Build: `pnpm run docs:build`
-
-## Blog Demo
+## Developer
 
 - Preview: `pnpm run blog:dev`
 - Build: `pnpm run blog:build`
