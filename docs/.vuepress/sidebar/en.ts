@@ -4,12 +4,11 @@ export const enSidebar = sidebar({
   "/": [
     "",
     {
-      text: "Kasir",
+      text: "Retail",
       icon: "book",
-      prefix: "guide/",
+      prefix: "retail/",
       children: [
         "",
-        "Dashboard",
         {
           text: "Penjualan",
           icon: "lightbulb",
@@ -19,12 +18,22 @@ export const enSidebar = sidebar({
             "",
             "Preparation",
             "POS",
-            "DepositCustom",
-            "DepositCustomPayment",
-            "CreditNote"
+            "CustomOrder",
+            "CreditNote",
+            "EndOfDay",
+            "POSRegister"
           ]
         },
-        "EndOfDay"
+        {
+          text: "Kontak",
+          icon: "lightbulb",
+          prefix: "contacts/",
+          link: "contacts/",
+          children: [
+            "Customer",
+            "Supplier",
+          ]
+        }
       ],
     },
   ],
